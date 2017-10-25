@@ -1,0 +1,16 @@
+{
+  "name": "learn-LeanCloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:debug": "cross-env DEBUG=leancloud* yarn start"
+  },
+  "dependencies": {
+    "leancloud-storage": "^3.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.0"
+  }
+}
